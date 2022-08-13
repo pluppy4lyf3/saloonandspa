@@ -1,0 +1,22 @@
+
+
+input[type=submit] {
+ width: 10%;
+  background-color:#febdb9 ;
+  color: #333;
+  padding: 1px 20px;
+  margin: 8px 0;
+  border: solid;
+  border-color:#ffa5a1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ff7f78;
+   border: solid;
+  border-color:#ff6f68;
+  
+}
+
+

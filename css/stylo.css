@@ -1,0 +1,103 @@
+.product_wrapper {
+	float:left;
+	padding: 30px;
+	text-align: center;
+	width: 50%;
+	}
+
+		.shop h2
+	{
+		margin-bottom: 30px;
+		text-align: center;
+		color: #333;
+	}
+	
+.product_wrapper:hover {
+	box-shadow: 0 0 0 2px #e5e5e5;
+	cursor:pointer;
+
+	}
+.product_wrapper .name {
+	font-weight:bold;
+	}
+.product_wrapper .buy {
+  text-decoration: none;
+  color: #333;
+  background-color:#B5EAD7 ;
+  padding: 10px 25px;
+  border-radius: 25px;
+  margin-top: 25px;
+  display: inline-block;
+  font-weight: 600 ;
+  transition: 0.6s ease;
+}
+.product_wrapper .buy:hover {
+	background-color:#b19cd9 ;
+	color: WHITE;
+}
+
+.table td {
+	border-bottom: #F0F0F0 1px solid;
+	padding: 10px;
+	}
+.divbag {
+	float:right;
+	font-weight:600;
+	position:relative;
+	}
+	
+.divbag span {
+	font-size: 12px;
+    line-height: 14px;
+    background: #ffb347;
+    padding: 2px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    left: 13px;
+    color: #fff;
+    width: 14px;
+    height: 13px;
+    text-align: center;
+	}
+	/*remove button*/
+.bag .remove {
+     text-decoration: none;
+  color: #333;
+  background-color:#CD5E77 ;
+  padding: 1px 4px;
+  border-radius: 25px;
+  margin-top: 25px;
+  display: inline-block;
+  font-weight: 600 ;
+  transition: 0.6s ease;
+	}
+	
+.bag .remove:hover {
+	background-color:#b19cd9 ;
+	COLOR: WHITE;
+	}
+	/* product image size*/
+.image img
+	{
+		max-width: 350;
+		height:250;
+	}
+	
+	.pay
+	{
+		text-decoration: none;
+  color: #333;
+  background-color:FDFD96 ;
+  padding: 1px 10px;
+  border-radius: 25px;
+  margin-top: 25px;
+  font-weight: 600 ;
+  transition: 0.6s ease;
+	}
+	.pay:hover
+	{
+		background-color:#FDDD5C ;
+	COLOR: GREY;
+	}

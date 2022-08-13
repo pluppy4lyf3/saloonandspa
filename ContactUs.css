@@ -1,0 +1,36 @@
+.Address{
+	position: absolute;
+	padding: 15px 0px;
+	margin-left: 190px;
+	left: 0px;
+}
+
+.OpenHr{
+	position: absolute;
+	padding: 15px 200px;
+	right: 0px;
+}
+
+.phone{
+	position: absolute;
+	left: 0px;
+	padding: 0px 80px;
+	margin: 140px 100px;
+}
+
+.phoneimg{
+	height: 10%;
+	width: 10%;
+}
+
+.email{
+	position: absolute;
+	left: 0px;
+	padding: 60px 80px;
+	margin: 140px 100px;
+}
+
+.emailimg{
+	height: 3%;
+	width: 3%;
+}
