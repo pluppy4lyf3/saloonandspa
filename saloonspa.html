@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<style>
+.s1
+{
+position: relative;
+	width: 100%;
+	min-height: 110vh;
+	padding: 35px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+}
+
+.s2
+{
+position: relative;
+	width: 100%;
+	min-height: 50vh;
+	padding: 35px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+}
+</style>
+
+<head>
+	<meta charset = "UTF -8">
+	<title> Welcome to our Saloon / Spa</title>
+	<link rel = "stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+	<section class="s1">
+	<div class="circle"></div>
+		<header>
+	
+			<a href="index.php" class="logo"><img src="pics/logo.png"></a>
+			<ul>
+				
+				<li><a href="index.php">Home Page</a></li>
+				<li><a href="BookServices.html">Services Menu</a></li>
+				<li><a href="contactus.php">Enquiries</a></li>
+				<li><a href="bookingform.php">Book Now</a></li>
+				
+				
+			</ul>
+			
+		</header>
+		
+		<div class="content">
+			<div class="textBox">
+				<h2>welcome to<br>our <span>Saloon/Spa </span></h2>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons
+				equat.tempor incididunt ididunt ut labore et dolore magna aliqua. Ut enim ad 
+				minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+				commodo consequat.ut labore et dolore magna aliqua. Ut e
+			 </p>
+				
+				<a href="#s2">See Our Services</a>
+				
+			</div>
+			
+			
+			<div class="imgBox">
+				<img src="pics/spa.jpg" class="spa">
+			</div>
+			
+			</div>
+			<ul class="thumb">
+				<li><img src="pics/hairsaloonthumb.png" onclick="imgSlider('pics/hairsaloon.png')"></li>
+				<li><img src="pics/nailsthumb.png" onclick="imgSlider('pics/nails.jpeg')"></li>
+				<li><img src="pics/spathumb.png" onclick="imgSlider('pics/spa.jpg')"></li>
+			</ul>
+	
+	<ul class="sci">
+			<li><a href="#"><img src= "pics/facebook.png"></a></li>
+			<li><a href="#"><img src= "pics/twitter.png"></a></li>
+			<li><a href="#"><img src= "pics/instagram.png"></a></li>
+	</ul>
+	
+	</section>
+	
+	<script type="text/javascript">
+		function imgSlider(anything)
+		{
+			document.querySelector('.spa').src=anything;
+		}
+		
+		
+	</script>
+
+	<section class="s2" id = "s2">
+	<div class="circle2"></div>
+		<div class="container">
+      <div class="details">
+        <h2>Services Offered</h2>
+		
+      </div>
+
+      <div class="main-box">
+        <div class="box box-beige">
+          <div class="icon">
+           <img src="pics/hairtreatment.jpeg">
+          </div>
+          <h2>Hair Treatments</h2>
+          <hr>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
+          <a href="BookServices.html #hair-box">More</a>
+        </div>
+
+        <div class="box box-beige">
+           <div class="icon">
+           <img src="pics/nail.png">
+          </div>
+          <h2>Nail Treatments</h2>
+          <hr>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
+          <a href="BookServices.html #nails-box">More</a>
+        </div>
+        
+        <div class="box box-beige">
+           <div class="icon">
+           <img src="pics/spa facial.jpg">
+          </div>
+          <h2>Spa Treatments</h2>
+          <hr>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
+          <a href="BookServices.html #spa-box">More</a>
+        </div>
+
+      </div>
+
+    </div>
+
+			
+	</section>
+	
+
+	
+	
+</body>
+
+</html>
